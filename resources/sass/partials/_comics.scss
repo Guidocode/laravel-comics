@@ -4,14 +4,8 @@ main{
     color: white;
     background-color: #1C1C1C;
 
-    // .gb-container{
-    //   position: relative;
-    // }
 
     .title-content{
-      // position: absolute;
-      // top: -55;
-      // left: 0;
       display: inline-block;
       text-transform: uppercase;
       color: white;
@@ -22,7 +16,6 @@ main{
     }
 
     .gb-btn{
-      // display: inline-block;
       margin: 0 auto;
       text-transform: uppercase;
       background-color: $primary-color;
