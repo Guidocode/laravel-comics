@@ -1,5 +1,11 @@
-//
+//Importo i miei stili sass
 
-body {
-    background-color: red;
-}
+@import 'partials/vars';
+@import 'partials/mixins';
+@import 'partials/general';
+@import 'partials/utilities';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/comics';
+
+

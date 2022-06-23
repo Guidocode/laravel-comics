@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.gb-container {
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+header {
+  height: 100px;
+  line-height: 94px;
+}
+header .logo {
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+header .logo img {
+  width: 100%;
+}
+header nav {
+  float: right;
+}
+header nav li {
+  padding: 0 15px;
+}
+header nav a {
+  display: inline-block;
+  color: black;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header nav a:hover, header nav a.active {
+  border-bottom: 4px solid #0281FA;
+  color: #0281FA;
+}
+
+.footer-top {
+  max-height: 350px;
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.footer-top .columns {
+  color: white;
+}
+.footer-top .columns ul {
+  padding-left: 0;
+}
+.footer-top .columns h6 {
+  text-transform: uppercase;
+}
+.footer-top .columns a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #979291;
+}
+.footer-top .columns a:hover {
+  color: #0281FA;
+}
+.footer-top .logo {
+  margin-top: -50px;
+  width: 100%;
+}
+
+.footer-bottom {
+  height: 80px;
+  background-color: #303030;
+}
+.footer-bottom .gb-container {
+  height: 100%;
+}
+.footer-bottom .gb-btn {
+  border: 2px solid #0281FA;
+  border-radius: none;
+  color: white;
+  text-transform: uppercase;
+}
+.footer-bottom .gb-btn:hover {
+  background-color: #0281FA;
+}
+.footer-bottom nav h6 {
+  text-transform: uppercase;
+  color: #0281FA;
+}
+.footer-bottom nav li {
+  padding: 0 5px;
+}
+.footer-bottom nav a img {
+  width: 25px;
+  transition: 0.2s;
+}
+.footer-bottom nav a img:hover {
+  filter: brightness(0.7);
+}
+
+main {
+  padding: 40px 0;
+  color: white;
+  background-color: #1C1C1C;
+}
+main .title-content {
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0281FA;
+  padding: 5px 10px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+main .gb-btn {
+  margin: 0 auto;
+  text-transform: uppercase;
+  background-color: #0281FA;
+  padding: 5px 40px;
+}
+
+.gb-card {
+  width: calc(12.5vw - 20px);
+  margin: 5px 10px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.gb-card:hover {
+  filter: contrast(3);
+}
+.gb-card .image-card {
+  height: calc(12.5vw - 40px);
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.gb-card .image-card img {
+  width: 100%;
+}
+.gb-card .title-card {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
