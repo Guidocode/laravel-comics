@@ -1,0 +1,24 @@
+.light-blue-band{
+    background-color: $primary-color;
+
+    ul{
+      a{
+        display: inline-block;
+        color: white;
+        font-size: .7rem;
+        @include linkStyle();
+        margin-right: 5px;
+
+
+        .icon{
+          display: inline-block;
+          width: 60px;
+          height: 50px;
+          margin-right: 5px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+    }
+  }
