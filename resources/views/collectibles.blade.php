@@ -3,3 +3,5 @@
 @section('content')
     <h1 class="text-center">COLLECTIBLES</h1>
 @endsection
+
+@section('title', 'Collectibles')
